@@ -8,7 +8,6 @@ import practica0302.modelo.Casa;
 import practica0302.modelo.Propietario;
 
 public class GestionDato {
-    
    
     private HashMap<Propietario, Casa> propietarioMap;
     private List<Casa> casaList;
