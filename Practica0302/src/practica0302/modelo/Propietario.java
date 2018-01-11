@@ -57,7 +57,7 @@ public class Propietario {
 
     @Override
     public String toString() {
-        return "Propietario{" + "id=" + id + ", nombre=" + nombre + ", edad=" + edad + ", cedula=" + cedula + '}';
+        return "\n__Propietario__" + "|id: " + id + "\nNombre: " + nombre + "\nEdad: " + edad + "\nCedula: " + cedula;
     }
     
     
