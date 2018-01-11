@@ -9,7 +9,7 @@ import practica0302.modelo.Propietario;
 
 public class GestionDato {
    
-    private HashMap<Propietario, Casa> propietarioMap;
+    /*private HashMap<Propietario, Casa> propietarioMap;
     private List<Casa> casaList;
 
     public GestionDato(HashMap<Propietario, Casa> propietarioMap, List<Casa> casaList) {
@@ -28,7 +28,9 @@ public class GestionDato {
     }
     public void setCasaList(List<Casa> casaList) {
         this.casaList = casaList;
-    }
+    }*/
+    
+    
     
     
     
