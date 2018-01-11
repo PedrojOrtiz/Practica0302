@@ -47,7 +47,7 @@ public class Casa {
 
     @Override
     public String toString() {
-        return "__Casa__" + "       |id: " + id + propietario + "\nUbicacion: " + ubicacion +"\n";
+        return "_____Casa______" + "|id: " + id + propietario + "\nUbicacion: " + ubicacion +"\n";
     }
     
     
