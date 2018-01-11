@@ -10,6 +10,7 @@ import Lista.Lista;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import practica0302.controlador.GestionDato;
 import practica0302.modelo.Casa;
 import practica0302.modelo.Propietario;
 /**
@@ -33,6 +34,11 @@ public class Principal {
         Propietario p4 = new Propietario(4, "Daniel Torres", 19, "0124534614");
         
         l.agregarElemento(p1);
+        l.agregarElemento(p2);
+        l.agregarElemento(p3);
+        l.agregarElemento(p4);
+        
+        System.out.println(pL.toString());
         
         HashMap<Casa, Propietario> cL = new HashMap<Casa, Propietario>();
         Diccionario d = new Diccionario(cL, pL);
@@ -45,9 +51,21 @@ public class Principal {
         Casa c6 = new Casa(6,p3,"Av. 11 de enero");
         Casa c7 = new Casa(7,p4,"Calle Nueva");
         
-        d.agregarElemento(cL, pL);
+        d.agregarElemento(c1, p1);
+        d.agregarElemento(c2, p1);
+        d.agregarElemento(c3, p1);
+        d.agregarElemento(c4, p2);
+        d.agregarElemento(c5, p3);
+        d.agregarElemento(c6, p3);
+        d.agregarElemento(c7, p4);
         
-        System.out.println(c1 +"\n"+c2 +"\n"+c3 +"\n"+c4 +"\n"+c5 +"\n"+c6 +"\n"+c7);
+        /*int vector = new int[];
+        GestionDato GD = new GestionDato();
+        GD.vector(vector, 0)
+        */
+        
+        
+        System.out.println(cL.toString());
         
         
         
